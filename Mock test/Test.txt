@@ -1,0 +1,251 @@
+Java test:-
+
+1)Java is a high level object oriented programming language which is created in 1995 by James Gosling and now owned by Oracle. It is fast secure and powerful
+and platform independent programming language.
+Javac: is a compiler which is used to compile he program and debug it. 
+
+2)JDK:- JDK is a java development kit which consist of the java tools, JRE and JVM.
+  JRE:-JRE ia a java runtime environment which is having the JVM and it provides the runtime environment to run and implement the program.
+  JVM:-JVM is a java virtual machine which is virtual as it says ie, physically not present but creates the virtual platform to run programs and execute it.
+
+3).java file                                        .class file
+* these are the file where you write the code.      *these are the result of the compilation that takes place by javac and jvm. 
+
+5)A variable is container which is used a store a value in java. The variables are intitialised using the datatypes.
+types of variables are :-
+* Local variable
+* Static variable
+* Instance variable
+
+example:-
+class method
+{
+static int add(x,y)
+static int add(x,y,z)
+}
+class addition
+{
+public static void main(String[] args)
+{
+System.out.println(addition.add(22,22))
+System.out.println(addition.add(25,35,45))
+}
+}
+
+6)Object-oriented programming is a concept in which we take real world entities as objects and try to implement the principles of inheritance,abstraction,polymorphism and encapsulation using different technologies to develop the applications in different sectors.
+
+7) main method overloading.
+
+8) Datatypes :-  
+Types:-primitive and non primitive
+primitive datatype:-             non-primitive
+*boolean                       *arrays
+*byte                          *stack
+*double                        *linked list
+*short                         *trees
+*long
+*float
+*char
+*int
+
+
+ example:-
+class method
+{
+static int add(x,y)
+static int add(x,y,z)
+}
+class addition
+{
+public static void main(String[] args)
+{
+System.out.println(addition.add(22,22))
+System.out.println(addition.add(25,35,45))
+}
+}
+}
+
+
+
+
+9)dot opeartor is used to  access the static variables of the static methods.
+example:-
+class dot
+{
+public static void main(String[] args)
+{
+System.out.println("Hello");
+}
+}
+
+10) Features of java
+* Platform independent
+* Multithreading
+* Multitasking
+* Robust
+* Secure
+* Speed
+* Object-oriented
+
+11) An array is a non primitive datatype which is used to store the homogenious collection of same elements.
+class array
+{
+public static void main(String[] args)
+{
+array[] aplha={'a','b','c','d','e'}
+alpha.index[1]='s';
+alpha.index[2]='f';
+for(i=0;i<=1;i++)
+{
+System.out.println("array elements"+i);
+}
+}
+}
+
+
+12) class:- a class is an instance of an object. class is a keyword,and it is also a blueprint instance.
+    object:- object is a real world entity.
+example:-
+
+class object
+{
+public static void main(String[] args)
+{
+System.out.println("Hello");
+}
+}
+
+13)keywords are pre-defined and these cannot be changed because they have a fixed meaning and rules to use.
+ list of 10 keywords:-
+* private
+* public
+* protected
+* this
+* int
+* float
+* boolean
+* if
+* final
+* finally
+* new
+
+14)  constructor is a special method.
+It has no return type.
+It is used with new keyword.
+It has the same name as the class name.
+
+Types of constructors:- 3 types
+* default constructor: it is the default coonstructor which is given by java when we dont create a constructor of our own and it has default values. 
+* parametarised constructor: parametarised constructor is a constructor which is having number of parameters with different datatypes.
+* no argument constructor :  no argument constructor is a  constructor which is having no-arguments.
+
+15) Main method is the static because jvm may call it without having to create an instance of the class that contains the main() function.
+Types of methods:-
+* static method
+* non-static method
+
+16) class example
+{
+Static int array[]={12,3,2,45,6,7,6};
+public static void main(String args[])
+{
+System.out.println("array length is"+array.length);
+
+}
+
+
+}
+
+17) Method is a block of code which is used to execute a specific task only when it is called.
+method overloading is the overloading of the method having same name but having different in the number of parameters and datatype of the parameters.
+
+
+  exampple:-
+class method
+{
+static int add(x,y)
+static int add(x,y,z)
+}
+class addition
+{
+public static void main(String[] args)
+{
+System.out.println(addition.add(22,22))
+System.out.println(addition.add(25,35,45))
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
