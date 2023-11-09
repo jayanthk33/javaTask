@@ -1,4 +1,5 @@
 class CanteenMain
+
 {
 public static void main(String args[])
 {
