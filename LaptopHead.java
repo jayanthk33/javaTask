@@ -8,7 +8,7 @@ class LaptopHead
 		Hardware hardware1=new Hardware();
 		Hardware hardware2=new Hardware();
 		Hardware hardware3=new Hardware();
-		Hardware[]  Harray={hardware1,hardware2,hardware3};
+		Hardware[] Harray={hardware1,hardware2,hardware3};
 		Brand brand=new Brand();
 		Owner owner=new Owner();
 		City city=new City();
