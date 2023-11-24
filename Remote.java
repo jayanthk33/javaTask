@@ -15,24 +15,24 @@ class Remote{
 	}
 	void on()
 	{
-				System.out.println("remote is used to on tv");
+		System.out.println("remote is used to on tv");
 	}
 	
 	void off()
 	{
-						System.out.println("remote is used to off tv");
+		System.out.println("remote is used to off tv");
 	}
 	void increaseVolume()
 	{
-								System.out.println("remote is used to increaseVolume of tv");
+		System.out.println("remote is used to increaseVolume of tv");
 	}
 	void decreaseVolume()
 	{
-								System.out.println("remote is used to decreaseVolume of tv");
+		System.out.println("remote is used to decreaseVolume of tv");
 	}
 	void changeChannel()
 	{
-								System.out.println("remote is used to changeChannel of tv");
+		System.out.println("remote is used to changeChannel of tv");
 	}
 }
 

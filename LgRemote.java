@@ -5,7 +5,7 @@ class LgRemote extends Remote
 	
 	LgRemote()
 	{
-				System.out.println("no-arg const of LgRemote");
+		System.out.println("no-arg const of LgRemote");
 	}
 	
 	LgRemote(int warranty,int totalBatteries,int totalButtons,boolean original, RemoteUsedFor usedFor)
@@ -17,17 +17,17 @@ class LgRemote extends Remote
 	}
 	void voiceCommand()
 	{
-						System.out.println("voiceCommand is used to change voice");
+		System.out.println("voiceCommand is used to change voice");
 	}
 	
 	@Override
 	void on()
 	{
-						System.out.println("LgRemote is used to on Lgtv");
+		System.out.println("LgRemote is used to on Lgtv");
 	}
     @Override
 	void off()
 	{
-						System.out.println("LgRemote is used to off Lgtv");
+		System.out.println("LgRemote is used to off Lgtv");
 	}
 }
